@@ -29,12 +29,13 @@ namespace MatricesConsole
             };
 
             Maximal(FirstMatrix);
-            Console.WriteLine("....................");
+            Console.WriteLine(".................................");
             Minimal(FirstMatrix);
-            Console.WriteLine("....................");
+            Console.WriteLine(".................................");
             Multiplication(FirstMatrix, SecondMatrix);
             Console.ReadKey();
         }
+
         static void Maximal(int[,] Matrix)
         {
             int max = -1000000;
